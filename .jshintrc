@@ -1,0 +1,26 @@
+{
+    "bitwise": true,
+    "curly": true,
+    "eqeqeq": true,
+    "forin": true,
+    "immed": true,
+    "latedef": true,
+    "newcap": true,
+    "noarg": true,
+    "noempty": true,
+    "quotmark": "single",
+    "trailing": true,
+    "undef": true,
+    "unused": true,
+    "boss": true,
+    "browser": true,
+    "sub": true,
+    "globals": {
+        "jQuery": true,
+        "$": true,
+        "console": true,
+        "flowplayer": true,
+        "Backbone": true,
+        "alert": true
+    }
+}

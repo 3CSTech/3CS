@@ -1,0 +1,20 @@
+{
+    "outline-none": false,
+    "fallback-colors": false,
+    "overqualified-elements": false,
+    "unique-headings": false,
+    "box-sizing": false,
+    "qualified-headings": false,
+    "known-properties": false,
+    "duplicate-properties": false,
+    "compatible-vendor-prefixes": false,
+    "box-model": false,
+    "ids": false,
+    "text-indent": false,
+    "duplicate-background-images": false,
+    "underscore-property-hack": false,
+    "font-sizes": false,
+    "star-property-hack": false,
+    "important": false,
+    "floats": false
+}

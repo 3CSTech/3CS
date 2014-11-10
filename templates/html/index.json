@@ -1,0 +1,144 @@
+{
+    "extends": ["base.json"],
+    "targetPath" : "index.html",
+    "partials%add": [],
+    "home": true,
+    "menu": [
+        {"title": "Job Overview", "href": "#overview"},
+        {"title": "Prerequisites", "href": "#prerequisites"},
+        {"title": "Hazards", "href": "", "items": [
+            {"title": "Electricity", "href": "#hazard/electricity"},
+            {"title": "Location & Access", "href": "#hazard/location-and-access"},
+            {"title": "Work Environment", "href": "#hazard/work-environment"},
+            {"title": "Roadside Activities", "href": "#hazard/roadside-activities"},
+            {"title": "Working At Height", "href": "#hazard/working-at-height"},
+            {"title": "Tools / Equipment", "href": "#hazard/tools-equipment"},
+            {"title": "Manual Handling / Lifting", "href": "#hazard/handling-lifting"},
+            {"title": "Substances", "href": "#hazard/substances"},
+            {"title": "Type A Confined Space", "href": "#hazard/typea"}
+        ]
+        },
+        {"title": "Safety Requirements", "href": "#safety"}
+    ],
+    "hazards": [
+    {
+    	"title": "Hazards > Electricity",
+        "id": "electricity",
+    	"items": [
+	    	{"label": "Live conductors/cables exposed"},
+	    	{"label": "Distressed equipment"},
+	    	{"label": "Operational Restrictions in place"},
+	    	{"label": "Risk of back feed / local generation"}
+    	]
+    },
+	{
+    	"title": "Hazards > Location & Access",
+        "id": "location-and-access",
+    	"items": [
+	    	{"label": "Restricted access"},
+	    	{"label": "Uneven ground/ Open excavation"},
+	    	{"label": "Unsafe area/Intruders"},
+	    	{"label": "Nesting birds / Area contaminated"}
+    	]
+    },
+	{
+    	"title": "Hazards > Work Environment",
+        "id": "work-environment",
+    	"items": [
+	    	{"label": "Live conductors/cables exposed"},
+	    	{"label": "Distressed equipment"},
+	    	{"label": "Operational Restrictions in place"},
+	    	{"label": "Risk of back feed / local generation"}
+    	]
+    },
+	{
+    	"title": "Hazards > Roadside Activities",
+        "id": "roadside-activities",
+    	"items": [
+	    	{"label": "Fast road risk of collision"},
+	    	{"label": "Traffic Management"},
+	    	{"label": "Signs/Barriers/ Lights"},
+	    	{"label": "Pedestrians not safe"},
+	    	{"label": "Excavation collapse"}
+    	]
+    },
+	{
+    	"title": "Hazards > Working At Height",
+        "id": "working-at-height",
+    	"items": [
+	    	{"label": "Justify your method chosen"},
+	    	{"label": "Wood Pole Condition"},
+	    	{"label": "Third parties working at height"},
+	    	{"label": "Materials stored above you"}
+    	]
+    },
+	{
+    	"title": "Hazards > Tools / Equipment",
+        "id": "tools-equipment",
+    	"items": [
+	    	{"label": "Hired tools/equipment"},
+	    	{"label": "Any mandatory PPE required"}
+    	]
+    },
+	{
+    	"title": "Hazards > Manual Handling / Lifting",
+        "id": "handling-lifting",
+    	"items": [
+	    	{"label": "Heavy or multiple items"},
+	    	{"label": "Lifting operations required"}
+    	]
+    },
+	{
+    	"title": "Hazards > Substances",
+        "id": "substances",
+    	"items": [
+	    	{"label": "Oil/PCBS/ other polluting liquids"},
+	    	{"label": "Compressed gas, SF6"},
+	    	{"label": "Dust/fumes created"},
+	    	{"label": "Asbestos"}
+    	]
+    },
+	{
+    	"title": "Hazards > Confined Spaces - Type A Confined Space",
+        "id": "typea",
+    	"items": [
+	    	{"label": "Access is by stairway"},
+	    	{"label": "Egress in an emergency is relatively straight forward and quick"},
+	    	{"label": "Door showing Confined space sign"},
+	    	{"label": "Unknown oxygen level in atmosphere"}
+    	]
+    }
+    ],
+    "safety": [
+    {
+        "id": "",
+        "image": "assets/images/safe1.png",
+        "title": "Overalls"
+    },
+    {
+        "id": "",
+        "image": "assets/images/safe2.png",
+        "title": "Gloves"
+    },
+    {
+        "id": "",
+        "image": "assets/images/safe3.png",
+        "title": "Goggles"
+    },
+    {
+        "id": "",
+        "image": "assets/images/safe4.png",
+        "title": "Hard Hat"
+    },
+    {
+        "id": "",
+        "image": "assets/images/safe5.png",
+        "title": "Luminous Jacket"
+    },
+    {
+        "id": "",
+        "image": "assets/images/safe6.png",
+        "title": "Boots"
+    }    
+    ]
+}

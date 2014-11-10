@@ -1,0 +1,22 @@
+{
+    "partials": [
+        "head",
+        "head_scripts",
+        "html_tag",
+        "scripts",
+        "stylesheets"
+    ],
+    "hss_css": [
+        "assets/css/3cs-all.css",
+        "assets/css/elusive-webfont.css"
+    ],
+    "images": {
+        "logo": ""
+    },
+    "js_files": [
+        "assets/js/lib/jquery-2.1.1.min.js",       
+        "assets/js/lib/underscore-min.js",
+        "assets/js/lib/backbone-min.js",
+        "assets/js/default.js"
+    ]
+}
