@@ -4,15 +4,19 @@ body {
     margin: 0;
 }
 
-.content {
+.main {
 	position: absolute;
-	width: 100%;
-	min-height: 400px;
 	z-index: 10;
 	overflow: hidden;
-	background-color: #C2FFFF;
+	width: 100%;
+}
+
+section.content {
+	background-color: #e8eef8;
 	background-size: cover;
 	background-position: center;
+	width: 100%;
+	min-height: 500px;	
 }
 
 .content h1, .content p {
@@ -28,4 +32,33 @@ body {
 
 .content p {
 	padding: 10px;
+}
+
+footer {
+	/*background-color: #C2FFFF;*/
+	background-color: #0072c6;
+	min-height: 50px;
+	width: 100%;
+}
+
+footer ul {
+	list-style: none;
+    margin: 0 auto 0 auto;
+    padding: 20px 0 20px 0;
+    width: 155px;	
+}
+
+footer nav {
+    font-size: 0.8em;
+    width: 100%;
+    z-index: 100;
+}
+
+footer ul li {
+	display: inline;
+}
+
+footer ul li a {
+	text-decoration: none;
+	color: black;
 }

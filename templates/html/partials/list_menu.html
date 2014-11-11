@@ -1,11 +1,13 @@
 <ul>
-	{{#each menu }}
+	{{#each this }}
 		<li>
-			<a{{#if this.href}} href="{{ this.href }}"{{/if}}>{{#if this.items.length}}+ {{/if}}{{ this.title }}</a>
+			{{> anchor this }}
 			{{#if this.items.length }}
 			<ul>
 				{{#each this.items }}
-				<li><a href="{{ this.href }}">{{ this.title }}</a></li>
+				<li>
+				{{> anchor this }}
+				</li>
 				{{/each }}
 			</ul>
 	    	{{/if }}

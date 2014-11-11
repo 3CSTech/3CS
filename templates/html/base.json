@@ -5,8 +5,10 @@
         "html_tag",
         "scripts",
         "stylesheets",
+        "anchor",
         "list_menu",
-        "menu"
+        "menu",
+        "footer"
     ],
     "hss_css": [
         "assets/css/3cs-all.css",

@@ -1,4 +1,4 @@
-nav {
+nav.main-menu {
     float: left;
     font-size: 0.8em;
     width: 100%;
@@ -8,32 +8,32 @@ nav {
     z-index: 100;
 }
 
-nav ul {
+nav.main-menu ul {
     margin: 0 auto 0 auto;
     padding: 0;
     list-style: none;
-    width: 410px;
+    width: 330px;
 }
 
-nav > ul > li {
+nav.main-menu > ul > li {
     margin: 10px 0 10px 0;
 }
 
-nav ul li {
+nav.main-menu ul li {
     float:left;
 }
 
-nav ul li a {
+nav.main-menu ul li a {
     padding: 10px 10px;
 }
 
-nav ul li a {
+nav.main-menu ul li a {
     float: left;
     color: black;
     text-decoration:none;
 }
 
-nav li ul {
+nav.main-menu li ul {
     display: none;
     margin: 30px 0 0 15px;
     position: absolute;
@@ -43,7 +43,7 @@ nav li ul {
     background-color: white;
 }
 
-nav li ul a {
+nav.main-menu li ul a {
     background: none;
     border: 0 none;
     margin-right: 0;
@@ -55,28 +55,28 @@ nav li ul a {
 
 /* Sub menu hover */
 
-nav ul li a:hover,
-nav ul li:hover > a,
-nav li ul a:hover, 
-nav ul li li:hover > a {
+nav.main-menu ul li a:hover,
+nav.main-menu ul li:hover > a,
+nav.main-menu li ul a:hover, 
+nav.main-menu ul li li:hover > a {
     color: lightblue;
 }
 
-nav li ul a:hover, 
-nav ul li li:hover > a  {
+nav.main-menu li ul a:hover, 
+nav.main-menu ul li li:hover > a  {
     background-color: #E8E8E8;
 }
 
-nav li:hover ul {
+nav.main-menu li:hover ul {
     display: block;
 }
 
-nav li li ul {
+nav.main-menu li li ul {
     margin: -1px 0 0 160px;
     border-radius: 0 10px 10px 10px;
     visibility:hidden;
 }
 
-nav li li:hover ul {
+nav.main-menu li li:hover ul {
     visibility:visible;
 }
