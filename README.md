@@ -50,4 +50,4 @@ with the [livereload](http://feedback.livereload.com/knowledgebase/articles/8624
 * https://www.maxcdn.com
 * https://www.yammer.com
 * http://www.bloggermint.com/2011/06/pure-css3-multi-level-drop-down-navigation-menu
-
+* http://www.w3schools.com/tags/ref_colorpicker.asp
