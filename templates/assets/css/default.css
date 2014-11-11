@@ -9,6 +9,8 @@ body {
 	z-index: 10;
 	overflow: hidden;
 	width: 100%;
+	padding: 0;
+	margin: 0;
 }
 
 section.content {
@@ -17,6 +19,10 @@ section.content {
 	background-position: center;
 	width: 100%;
 	min-height: 500px;	
+	padding: 0;
+	margin: 0;
+	overflow: hidden;
+	/*border: solid 1px transparent;*/
 }
 
 .content h1, .content p {
@@ -36,16 +42,19 @@ section.content {
 
 footer {
 	/*background-color: #C2FFFF;*/
+	overflow: hidden;
 	background-color: #0072c6;
 	min-height: 50px;
 	width: 100%;
+	padding: 0;
+	margin: 0;	
 }
 
 footer ul {
 	list-style: none;
     margin: 0 auto 0 auto;
     padding: 20px 0 20px 0;
-    width: 155px;	
+    width: 185px;	
 }
 
 footer nav {
@@ -60,5 +69,6 @@ footer ul li {
 
 footer ul li a {
 	text-decoration: none;
-	color: black;
+	color: white;
+	padding: 0 5px 0 5px;
 }
