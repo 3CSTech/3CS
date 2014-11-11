@@ -8,18 +8,35 @@
 	}*/	
 	body nav.main-menu ul {
 		display: none;
+		clear: both;
+		margin: 0;
 	}	
 	section a.logo {
 		margin: 10px 10px 10px 20px;
 		font-size: 3.0em;
 	}
-	body .toolbar {
+	section.toolbar {
+		width: 100%;
+	}	
+	body a.menu-button {
 		display: block;
+	}
+	body nav.main-menu {
+		position: static;
+	}
+	body nav.main-menu ul > li {
+	    display: block;
 	}		
-	body nav.main-menu ul li, 
-	body nav.main-menu ul li a {
+	body nav.main-menu section ul li, 
+	body nav.main-menu section ul li a {
 	    float: none;
 	}	
+	body nav.main-menu ul li a {
+	    padding: 10px 10px 10px 10px;
+	}	
+	body section.content {
+		padding: 0;
+	}
 	section footer ul {
     	width: 139px;	
 	}	

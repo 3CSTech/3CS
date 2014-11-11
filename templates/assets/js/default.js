@@ -1,6 +1,6 @@
 function toggleMenu() {
     document.location.href = '#';
-    var menu = $('nav.main-menu > ul');
+    var menu = $('.menu-container > ul');
     if (menu.hasClass('active')) {
         menu.removeClass('active');
     } else {

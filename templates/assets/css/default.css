@@ -74,11 +74,16 @@ footer ul li a {
 	display: block !important;
 }
 
-.toolbar {
+a.menu-button {
 	display: none;
 	float: left;
-	margin: 12px 0 0 10px;
+	margin: 12px 0 0 10px;	
 }
+
+/*.toolbar {
+	display: none;
+	float: left;
+}*/
 
 .toolbar a {
 	text-decoration: none;
