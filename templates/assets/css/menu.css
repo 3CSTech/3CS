@@ -1,9 +1,10 @@
+body {
+    font-family: 'Source Sans Pro',Verdana,Arial,sans-serif;
+}
+
 nav {
     float: left;
-    font: bold 12px Arial, Helvetica, Sans-serif;
-    border: 1px solid #121314;
-    border-top: 1px solid #2b2e30;
-    border-radius: 5px;
+    font-size: 0.8em;
     overflow: hidden;
 }
 
@@ -19,59 +20,49 @@ nav ul li {
 
 nav ul li a {
     float: left;
-    color:#d4d4d4;
+    color: black;
     padding: 10px 20px;
     text-decoration:none;
-    background:#3C4042;
-    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1) inset, 0 0 5px rgba(0, 0, 0, 0.1) inset;
-    border-left: 1px solid rgba(255, 255, 255, 0.05);
-    border-right: 1px solid rgba(0,0,0,0.2);
-    text-shadow: 0 -1px 1px rgba(0, 0, 0, 0.6);
 }
 
 nav li ul {
-        background:#3C4042;
-        border-radius: 0 0 10px 10px;
-        left: -999em;
-        margin: 35px 0 0;
-        position: absolute;
-        width: 160px;
-        z-index: 9999;
-        box-shadow: 0 0 15px rgba(0, 0, 0, 0.4) inset; 
-        border: 1px solid rgba(0, 0, 0, 0.5);
+    display: none;
+    margin: 30px 0 0 15px;
+    position: absolute;
+    width: 160px;
+    z-index: 9999;
+    border: 1px solid #dcdcdc;
 }
 
 nav li ul a {
-        background: none;
-        border: 0 none;
-        margin-right: 0;
-        width: 120px;
-        box-shadow: none;
-        border-bottom: 1px solid transparent;
-        border-top: 1px solid transparent;
+    background: none;
+    border: 0 none;
+    margin-right: 0;
+    width: 120px;
+    box-shadow: none;
+    border-bottom: 1px solid transparent;
+    border-top: 1px solid transparent;
 }
 
 /* Sub menu hover */
 
 nav ul li a:hover,
 nav ul li:hover > a {
-    color: #252525;
-    background:#3C4042;
-    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.2), 0 -1px #000;
-
+    color: lightblue;
 }
 
 nav li ul a:hover, 
 nav ul li li:hover > a  {
-    color: #2c2c2c;
-    background: #5C9ACD;
+    color: lightblue;
+    background-color: #E8E8E8;
+/*    background: #5C9ACD;
     border-bottom: 1px solid rgba(0,0,0,0.6);
     border-top: 1px solid #7BAED9;
-    text-shadow: 0 1px rgba(255, 255, 255, 0.3);
+    text-shadow: 0 1px rgba(255, 255, 255, 0.3);*/
 }
 
 nav li:hover ul {
-    left: auto;
+    display: block;
 }
 
 nav li li ul {
