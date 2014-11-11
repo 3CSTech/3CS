@@ -6,12 +6,15 @@ nav {
     float: left;
     font-size: 0.8em;
     overflow: hidden;
+    width: 100%
 }
 
 nav ul {
-    margin:0;
+    margin-left: auto;
+    margin-right: auto;
     padding:0;
     list-style:none;
+    width: 410px;
 }
 
 nav ul li {
