@@ -19,7 +19,7 @@ section.content {
 	background-position: center;
 	width: 100%;
 	min-height: 500px;	
-	padding: 0;
+	padding: 40px 0 0 0;
 	margin: 0;
 	overflow: hidden;
 	/*border: solid 1px transparent;*/
@@ -30,7 +30,7 @@ section.content {
 }
 
 .content h1 {
-	padding-top: 50px;
+	/*padding-top: 50px;*/
 	font-size: 2.7em;
 	line-height: 1.05em;	
 	font-weight: 300;

@@ -1,0 +1,13 @@
+/* for 568px (iPhone) or less */
+@media screen and (max-width: 568px) {
+	body {
+		font-size: 50%;
+	}
+/*	body nav.main-menu {
+		display: none;
+	}	*/
+	body nav.main-menu ul li, 
+	body nav.main-menu ul li a {
+	    float: none;
+	}	
+}
