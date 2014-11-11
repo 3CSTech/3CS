@@ -76,7 +76,8 @@ footer ul li a {
 
 .toolbar {
 	display: none;
-	margin: 5px 0 0 5px;
+	float: left;
+	margin: 12px 0 0 10px;
 }
 
 .toolbar a {

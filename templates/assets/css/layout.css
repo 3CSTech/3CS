@@ -9,12 +9,18 @@
 	body nav.main-menu ul {
 		display: none;
 	}	
+	section a.logo {
+		margin: 10px 10px 10px 20px;
+		font-size: 3.0em;
+	}
 	body .toolbar {
-		/*position: fixed;*/
 		display: block;
 	}		
 	body nav.main-menu ul li, 
 	body nav.main-menu ul li a {
 	    float: none;
+	}	
+	section footer ul {
+    	width: 139px;	
 	}	
 }
