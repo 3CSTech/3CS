@@ -70,7 +70,7 @@ footer ul li a {
 	padding: 0 5px 0 5px;
 }
 
-.active {
+.active, .active ul {
 	display: block !important;
 }
 
@@ -91,5 +91,5 @@ a.menu-button {
 
 .toolbar a i {
 	color: #0088cc;
-	font-size: 3.0em;
+	font-size: 4.0em;
 }

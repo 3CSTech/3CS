@@ -3,17 +3,23 @@
 	body {
 		font-size: 50%;
 	}
-/*	body nav.main-menu {
-	    position: static;
-	}*/	
+	nav section.menu-container {
+		width: 320px		
+	}
 	body nav.main-menu ul {
 		display: none;
 		clear: both;
 		margin: 0;
-	}	
+	}
+	body nav.main-menu li ul {
+		background-color: white;
+		border: 0;
+		position: static; 
+		margin: 5px 0 5px 15px;
+	}
 	section a.logo {
-		margin: 10px 10px 10px 20px;
-		font-size: 3.0em;
+		margin: 8px 10px 10px 20px;
+		font-size: 4.0em;
 	}
 	section.toolbar {
 		width: 100%;
@@ -26,11 +32,15 @@
 	}
 	body nav.main-menu ul > li {
 	    display: block;
+	    margin: 5px 0 5px 0;
 	}		
 	body nav.main-menu section ul li, 
 	body nav.main-menu section ul li a {
 	    float: none;
 	}	
+	body nav.main-menu > section > ul > li {
+		margin: 5px 0;
+	}
 	body nav.main-menu ul li a {
 	    padding: 10px 10px 10px 10px;
 	}	
