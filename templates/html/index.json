@@ -4,21 +4,17 @@
     "partials%add": [],
     "home": true,
     "menu": [
-        {"title": "Job Overview", "href": "#overview"},
-        {"title": "Prerequisites", "href": "#prerequisites"},
-        {"title": "Hazards", "href": "", "items": [
-            {"title": "Electricity", "href": "#hazard/electricity"},
-            {"title": "Location & Access", "href": "#hazard/location-and-access"},
-            {"title": "Work Environment", "href": "#hazard/work-environment"},
-            {"title": "Roadside Activities", "href": "#hazard/roadside-activities"},
-            {"title": "Working At Height", "href": "#hazard/working-at-height"},
-            {"title": "Tools / Equipment", "href": "#hazard/tools-equipment"},
-            {"title": "Manual Handling / Lifting", "href": "#hazard/handling-lifting"},
-            {"title": "Substances", "href": "#hazard/substances"},
-            {"title": "Type A Confined Space", "href": "#hazard/typea"}
-        ]
-        },
-        {"title": "Safety Requirements", "href": "#safety"}
+        {"title": "About", "href": "#"},
+        {"title": "Solutions", "items": [
+            {"title": "DevOps", "href": "#"},
+            {"title": "Continuous Integration", "href": "#hazard/location-and-access"},
+            {"title": "Automated Deployment", "href": "#hazard/work-environment"},
+            {"title": "Build Automation", "href": "#hazard/roadside-activities"}
+        ]},
+        {"title": "Products", "items": [
+            {"title": "LifeStream", "href": "#hazard/electricity"}
+        ]},
+        {"title": "Consulting", "href": "#"}
     ],
     "hazards": [
     {

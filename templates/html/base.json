@@ -4,7 +4,9 @@
         "head_scripts",
         "html_tag",
         "scripts",
-        "stylesheets"
+        "stylesheets",
+        "list_menu",
+        "menu"
     ],
     "hss_css": [
         "assets/css/3cs-all.css",

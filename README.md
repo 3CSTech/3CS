@@ -38,7 +38,7 @@ To serve the web pages locally:
 
     grunt connect watch
 
-Navigate to the following URL: `http://localhost:8000/`
+Navigate to the following URL: `http://localhost:8000`
 
 Generated pages are in `/gen`
 
@@ -49,3 +49,5 @@ with the [livereload](http://feedback.livereload.com/knowledgebase/articles/8624
 
 * https://www.maxcdn.com
 * https://www.yammer.com
+* http://www.bloggermint.com/2011/06/pure-css3-multi-level-drop-down-navigation-menu
+
