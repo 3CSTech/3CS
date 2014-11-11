@@ -10,10 +10,9 @@ nav {
 }
 
 nav ul {
-    margin-left: auto;
-    margin-right: auto;
-    padding:0;
-    list-style:none;
+    margin: 0 auto 0 auto;
+    padding: 0;
+    list-style: none;
     width: 410px;
 }
 
@@ -50,18 +49,15 @@ nav li ul a {
 /* Sub menu hover */
 
 nav ul li a:hover,
-nav ul li:hover > a {
+nav ul li:hover > a,
+nav li ul a:hover, 
+nav ul li li:hover > a {
     color: lightblue;
 }
 
 nav li ul a:hover, 
 nav ul li li:hover > a  {
-    color: lightblue;
     background-color: #E8E8E8;
-/*    background: #5C9ACD;
-    border-bottom: 1px solid rgba(0,0,0,0.6);
-    border-top: 1px solid #7BAED9;
-    text-shadow: 0 1px rgba(255, 255, 255, 0.3);*/
 }
 
 nav li:hover ul {

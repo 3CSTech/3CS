@@ -7,12 +7,12 @@
         {"title": "About", "href": "#"},
         {"title": "Solutions", "items": [
             {"title": "DevOps", "href": "#"},
-            {"title": "Continuous Integration", "href": "#hazard/location-and-access"},
-            {"title": "Automated Deployment", "href": "#hazard/work-environment"},
-            {"title": "Build Automation", "href": "#hazard/roadside-activities"}
+            {"title": "Continuous Integration", "href": "#"},
+            {"title": "Automated Deployment", "href": "#"},
+            {"title": "Build Automation", "href": "#"}
         ]},
         {"title": "Products", "items": [
-            {"title": "LifeStream", "href": "#hazard/electricity"}
+            {"title": "LifeStream", "href": "#"}
         ]},
         {"title": "Consulting", "href": "#"}
     ],
