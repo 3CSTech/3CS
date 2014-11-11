@@ -3,16 +3,16 @@
 	body {
 		font-size: 50%;
 	}
+/*	body nav.main-menu {
+	    position: static;
+	}*/	
 	body nav.main-menu ul {
 		display: none;
 	}	
 	body .toolbar {
-		position: fixed;
+		/*position: fixed;*/
 		display: block;
 	}		
-	body nav.main-menu {
-	    position: static;
-	}
 	body nav.main-menu ul li, 
 	body nav.main-menu ul li a {
 	    float: none;

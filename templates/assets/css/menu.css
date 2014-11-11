@@ -4,13 +4,14 @@ a.logo {
     color: #0072c6; 
     font-size: 2.2em;
     font-weight: 300;   
+    margin-top: 10px;
 }
 
 section.menu-container {
     margin: 0 auto 0 auto;
     padding: 0;
     list-style: none;
-    width: 430px;    
+    width: 588px;
 }
 
 nav.main-menu {
@@ -23,13 +24,15 @@ nav.main-menu {
 }
 
 nav.main-menu ul {
-    margin: 0 auto 0 auto;
+/*    margin: 0 auto 0 auto;
+    padding: 0;*/
+    /*width: 530px;*/
     padding: 0;
-    width: 330px;
+    margin: 0;
     list-style: none;
 }
 
-nav.main-menu > ul > li {
+nav.main-menu > section > ul > li {
     margin: 10px 0 10px 0;
 }
 
@@ -41,8 +44,12 @@ nav.main-menu ul li {
     float:left;
 }
 
+nav.main-menu section > ul > li > ul > li a {
+    padding: 10px 15px 10px 15px;
+}
+
 nav.main-menu ul li a {
-    padding: 10px 10px;
+    padding: 10px 35px 10px 35px;
 }
 
 nav.main-menu ul li a {
@@ -53,9 +60,9 @@ nav.main-menu ul li a {
 
 nav.main-menu li ul {
     display: none;
-    margin: 30px 0 0 15px;
+    margin: 30px 0 0 35px;
     position: absolute;
-    width: 180px;
+    width: 190px;
     z-index: 999;
     border: 1px outset #dcdcdc;
     background-color: white;
@@ -64,7 +71,8 @@ nav.main-menu li ul {
 nav.main-menu li ul a {
     background: none;
     border: 0 none;
-    margin-right: 0;
+    /*margin-right: 0;*/
+    margin: 0;
     width: 160px;
     box-shadow: none;
     border-bottom: 1px solid transparent;
