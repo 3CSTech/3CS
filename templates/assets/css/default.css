@@ -5,9 +5,10 @@ body {
 }
 
 .content {
+	position: absolute;
 	width: 100%;
 	min-height: 400px;
-	z-index: -99;
+	z-index: 10;
 	overflow: hidden;
 	background-color: #C2FFFF;
 	background-size: cover;

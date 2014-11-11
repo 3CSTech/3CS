@@ -1,11 +1,11 @@
 nav {
     float: left;
     font-size: 0.8em;
-    overflow: hidden;
     width: 100%;
     background-color: rgba(255, 255, 255, 0.7);
     position: fixed;
     top: 0;
+    z-index: 100;
 }
 
 nav ul {
@@ -15,15 +15,21 @@ nav ul {
     width: 410px;
 }
 
+nav > ul > li {
+    margin: 10px 0 10px 0;
+}
+
 nav ul li {
     float:left;
-    margin: 10px 0 10px 0;
+}
+
+nav ul li a {
+    padding: 10px 10px;
 }
 
 nav ul li a {
     float: left;
     color: black;
-    padding: 10px 20px;
     text-decoration:none;
 }
 
@@ -31,16 +37,17 @@ nav li ul {
     display: none;
     margin: 30px 0 0 15px;
     position: absolute;
-    width: 160px;
-    z-index: 9999;
+    width: 180px;
+    z-index: 999;
     border: 1px solid #dcdcdc;
+    background-color: white;
 }
 
 nav li ul a {
     background: none;
     border: 0 none;
     margin-right: 0;
-    width: 120px;
+    width: 160px;
     box-shadow: none;
     border-bottom: 1px solid transparent;
     border-top: 1px solid transparent;
