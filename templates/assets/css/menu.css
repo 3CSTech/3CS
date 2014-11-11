@@ -1,3 +1,18 @@
+a.logo {
+    float: left;
+    text-decoration: none;
+    color: #0072c6; 
+    font-size: 2.2em;
+    font-weight: 300;   
+}
+
+section.menu-container {
+    margin: 0 auto 0 auto;
+    padding: 0;
+    list-style: none;
+    width: 430px;    
+}
+
 nav.main-menu {
     float: left;
     font-size: 0.8em;
@@ -10,12 +25,16 @@ nav.main-menu {
 nav.main-menu ul {
     margin: 0 auto 0 auto;
     padding: 0;
-    list-style: none;
     width: 330px;
+    list-style: none;
 }
 
 nav.main-menu > ul > li {
     margin: 10px 0 10px 0;
+}
+
+nav.main-menu ul > li {
+    display: inline-block;
 }
 
 nav.main-menu ul li {

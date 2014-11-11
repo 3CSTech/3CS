@@ -5,7 +5,6 @@ body {
 }
 
 .main {
-	position: absolute;
 	z-index: 10;
 	overflow: hidden;
 	width: 100%;
@@ -18,11 +17,10 @@ section.content {
 	background-size: cover;
 	background-position: center;
 	width: 100%;
-	min-height: 500px;	
+	min-height: 300px;	
 	padding: 40px 0 0 0;
 	margin: 0;
 	overflow: hidden;
-	/*border: solid 1px transparent;*/
 }
 
 .content h1, .content p {
@@ -30,7 +28,6 @@ section.content {
 }
 
 .content h1 {
-	/*padding-top: 50px;*/
 	font-size: 2.7em;
 	line-height: 1.05em;	
 	font-weight: 300;
@@ -71,4 +68,22 @@ footer ul li a {
 	text-decoration: none;
 	color: white;
 	padding: 0 5px 0 5px;
+}
+
+.active {
+	display: block !important;
+}
+
+.toolbar {
+	display: none;
+	margin: 5px 0 0 5px;
+}
+
+.toolbar a {
+	text-decoration: none;
+}
+
+.toolbar a i {
+	color: #0088cc;
+	font-size: 3.0em;
 }
