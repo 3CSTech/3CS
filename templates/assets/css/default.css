@@ -95,3 +95,11 @@ a.menu-button {
 	color: #0088cc;
 	font-size: 3.0em;
 }
+
+.logo span:nth-of-type(2) {
+	color: red;
+}
+
+.logo span:nth-of-type(3) {
+	color: green;
+}
