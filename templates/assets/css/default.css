@@ -21,6 +21,7 @@ section.content {
 	padding: 40px 0 0 0;
 	margin: 0;
 	overflow: hidden;
+	text-align: center;
 }
 
 .content h1, .content p {
@@ -87,13 +88,26 @@ a.menu-button {
 	float: left;
 }*/
 
-.toolbar a {
+section.toolbar a, section.contact a {
 	text-decoration: none;
 }
 
-.toolbar a i {
+section.contact p, section.contact a {
+	display: inline-block;
+}
+
+section.toolbar a i {
 	color: #0088cc;
 	font-size: 3.0em;
+}
+
+section.contact a i {
+	color: #0088cc;
+	font-size: 2.0em;	
+}
+
+section.contact a:hover i {
+	color: red;
 }
 
 .logo span:nth-of-type(2) {
