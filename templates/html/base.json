@@ -11,16 +11,36 @@
         "footer"
     ],
     "hss_css": [
-        "assets/css/3cs-all.css",
-        "assets/css/elusive-webfont.css"
+        "/css/3cs-all.css",
+        "/css/elusive-webfont.css"
     ],
     "images": {
         "logo": ""
     },
     "js_files": [
-        "assets/js/lib/jquery-2.1.1.min.js",       
-        "assets/js/lib/underscore-min.js",
-        "assets/js/lib/backbone-min.js",
-        "assets/js/default.js"
-    ]
+        "/js/lib/jquery-2.1.1.min.js",       
+        "/js/lib/underscore-min.js",
+        "/js/lib/backbone-min.js",
+        "/js/default.js"
+    ],
+    "menu": [
+        {"title": "About", "href": "/"},
+        {"title": "+ Solutions", "items": [
+            {"title": "DevOps", "href": "#"},
+            {"title": "Continuous Integration", "href": "#"},
+            {"title": "Automated Deployment", "href": "#"},
+            {"title": "Build Automation", "href": "#"}
+        ]},
+        {"title": "+ Products", "items": [
+            {"title": "Life Stream", "href": "https://github.com/BoyCook/LifeStreamTW", "target": "_blank"},
+            {"title": "RPSLS", "href": "http://rockpaperscissorslizardspock.co.uk", "target": "_blank"}
+            
+        ]},
+        {"title": "Consulting", "href": "#"}
+    ],
+    "footer": [
+        {"title": "Contact", "href": "/contact"},
+        {"title": "Values", "href": "/values"},
+        {"title": "Partners", "href": "/partners"}
+    ]    
 }

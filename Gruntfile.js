@@ -1,7 +1,7 @@
 /*global module:false, require:false*/
 module.exports = function (grunt) {
 
-    var templatesRoot = 'templates/assets';
+    var assetsRoot = 'templates/assets';
     var staticRoot = 'static';
 
     grunt.initConfig({
@@ -14,7 +14,7 @@ module.exports = function (grunt) {
                 src: 'Gruntfile.js'
             },
             main: {
-                src: templatesRoot + '/js/*.js'
+                src: assetsRoot + '/js/*.js'
             },
             test: {
                 src: 'test/*.js'
@@ -26,7 +26,7 @@ module.exports = function (grunt) {
                     csslintrc: '.csslintrc',
                     excludeList: 'elusive-webfont.css'
                 },
-                src: [templatesRoot + '/css/*.css']
+                src: [assetsRoot + '/css/*.css']
             }
         },
         cssmin: {
@@ -37,7 +37,7 @@ module.exports = function (grunt) {
                     report: 'gzip'
                 },
                 files: {
-                    'gen/assets/css/3cs-all.css': [templatesRoot + '/css/*.css']
+                    'gen/css/3cs-all.css': [assetsRoot + '/css/*.css']
                 }
             }
         },
@@ -49,9 +49,12 @@ module.exports = function (grunt) {
                         partialPath: 'templates/html/partials/*.html'
                     }
                 },
-                files: {
-                    'gen/*.html': 'templates/html/*.html'
-                }
+                files: [
+                    {'gen/*.html': 'templates/html/*.html'},
+                    {'gen/contact/*.html': 'templates/html/contact/*.html'},
+                    {'gen/partners/*.html': 'templates/html/partners/*.html'},
+                    {'gen/values/*.html': 'templates/html/values/*.html'}
+                ]
             }
         },
         watch: {
@@ -59,7 +62,7 @@ module.exports = function (grunt) {
                 livereload: true
             },
             default: {
-                files: [templatesRoot + '/**/*.*', 'templates/html/**/*.*', 'templates/js/**/*.*', 'test/**/*.*'],
+                files: [assetsRoot + '/**/*.*', 'templates/html/**/*.*', 'templates/js/**/*.*', 'test/**/*.*'],
                 tasks: ['build']
             }
         },
@@ -67,7 +70,8 @@ module.exports = function (grunt) {
             server: {
                 options: {
                     hostname: '*',
-                    port: 8000
+                    port: 8000,
+                    base: 'gen'
                 }
             }
         },
@@ -77,44 +81,33 @@ module.exports = function (grunt) {
                     {
                         expand: true,
                         flatten: true,
-                        src: [templatesRoot + '/css/PIE.htc'],
-                        dest: 'gen/assets/css',
-                        filter: 'isFile'
-                    },
-                    {
-                        expand: true,
-                        flatten: true,
                         src: [staticRoot + '/css/**/*.*'],
-                        dest: 'gen/assets/css',
+                        dest: 'gen/css',
                         filter: 'isFile'
                     },
                     {
                         expand: true,
                         flatten: true,
-                        src: [templatesRoot + '/images/**/*.*'],
-                        dest: 'gen/assets/images',
+                        src: [assetsRoot + '/images/**/*.*'],
+                        dest: 'gen/images',
                         filter: 'isFile'
                     },
                     {
                         expand: true,
                         flatten: true,
-                        src: [templatesRoot + '/js/*.js'],
-                        dest: 'gen/assets/js',
+                        src: [assetsRoot + '/js/*.js'],
+                        dest: 'gen/js',
                         filter: 'isFile'
                     },
                     {
                         expand: true,
                         flatten: true,
-                        src: [templatesRoot + '/js/lib/*.js'],
-                        dest: 'gen/assets/js/lib',
+                        src: [assetsRoot + '/js/lib/*.js'],
+                        dest: 'gen/js/lib',
                         filter: 'isFile'
                     }
                 ]
             }
-        },
-        curl: {
-            'gen/assets/js/libs/jquery.placeholder.js': 'https://raw.github.com/mathiasbynens/jquery-placeholder/master/jquery.placeholder.js',
-            'test/helpers/jasmine-jquery.js': 'https://raw.github.com/velesin/jasmine-jquery/1.5.7/lib/jasmine-jquery.js'
         }
     });
 
