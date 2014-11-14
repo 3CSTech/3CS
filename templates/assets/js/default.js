@@ -1,10 +1,15 @@
 function toggleMenu() {
     document.location.href = '#';
-    var menu = $('.menu-container > ul');
+    var container = $('.menu-container');
+    var menu = container.find('> ul');
     if (menu.hasClass('active')) {
         menu.removeClass('active');
+        container.addClass('menu-closed');
+        container.removeClass('menu-open');
     } else {
         menu.addClass('active');
+        container.addClass('menu-open');
+        container.removeClass('menu-closed');
     }
 }
 
