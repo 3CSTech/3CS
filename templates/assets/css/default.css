@@ -24,6 +24,12 @@ section.content {
 	text-align: center;
 }
 
+section.contacts {
+	width: 40%;
+	text-align: left;
+	margin: auto;	
+}
+
 .content h1, .content p {
 	text-align: center;	
 }
@@ -33,6 +39,10 @@ section.content {
 	line-height: 1.05em;	
 	font-weight: 300;
 	margin: 40px 10px 10px 10px;
+}
+
+h3, h5 {
+	margin: 30px;
 }
 
 .content p {
@@ -83,24 +93,22 @@ a.menu-button {
 	margin: 8px 0 0 10px;	
 }
 
+section.menu-open a.menu-button::after,
+section.menu-closed a.menu-button::after {
+	position: relative;
+	top: -10px;
+	font-size: 0.8em;
+	color: #0088cc;
+	font-weight: bold;
+}
+
 section.menu-open a.menu-button::after {
 	content: "<";
-	position: relative;
-	top: -7px;
-	font-size: 0.7em;
 }
 
 section.menu-closed a.menu-button::after {
 	content: ">";
-	position: relative;
-	top: -7px;
-	font-size: 0.7em;
 }
-
-/*.toolbar {
-	display: none;
-	float: left;
-}*/
 
 section.toolbar a, section.contact a {
 	text-decoration: none;
@@ -110,17 +118,12 @@ section.contact p, section.contact a {
 	display: inline-block;
 }
 
-a.menu-button {
+i {
 	color: #0088cc;
-	font-size: 3.0em;
+	font-size: 2.0em;
 }
 
-section.contact a i {
-	color: #0088cc;
-	font-size: 2.0em;	
-}
-
-section.contact a:hover i {
+a i:hover {
 	color: red;
 }
 
@@ -131,6 +134,9 @@ section.contact a:hover i {
 
 .logo span:nth-of-type(2) {
 	color: red;
+	position: absolute;	
+	height: 0.65em;
+	overflow: hidden;
 }
 
 .logo span:nth-of-type(3) {

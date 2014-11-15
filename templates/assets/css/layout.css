@@ -30,7 +30,11 @@
 	}	
 	body a.menu-button {
 		display: block;
+		font-size: 2.0em;
 	}
+	body a.menu-button i {
+		font-size: 1.5em;
+	}	
 	body nav.main-menu {
 		position: static;
 	}
@@ -45,7 +49,7 @@
 	body nav.main-menu > section > ul > li {
 		margin: 10px 0;
 	}
-	body nav.main-menu ul li a {
+	body nav.main-menu ul la {
 	    padding: 5px 5px 5px 5px;
 	}	
 	body nav.main-menu li ul a:hover, 
@@ -55,7 +59,10 @@
 	body section.content {
 		padding: 0;
 	}
-/*	section footer ul {
-    	width: 139px;	
-	}	*/
+	section footer ul {
+    	width: 60%;
+	}
+	body section.contacts {
+		width: 70%;
+	}	
 }
