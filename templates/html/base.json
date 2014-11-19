@@ -42,6 +42,7 @@
     "footer": [
         {"title": "Contact", "href": "/contact"},
         {"title": "Values", "href": "/values"},
-        {"title": "Partners", "href": "/partners"}
+        {"title": "Partners", "href": "/partners"},
+        {"title": "Software Engineering", "href": "/engineering"}
     ]    
 }

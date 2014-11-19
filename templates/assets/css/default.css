@@ -83,6 +83,10 @@ footer ul li a {
 	padding: 0 5px 0 5px;
 }
 
+footer a:hover {
+	color: red;
+}
+
 .active, .active ul {
 	display: block !important;
 }

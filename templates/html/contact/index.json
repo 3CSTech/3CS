@@ -2,5 +2,27 @@
     "extends": ["base.json"],
     "targetPath" : "index.html",
     "partials%add": [],
-    "home": true
+    "home": true,
+    "contacts": [
+    	{
+    	 "text": "info@3cs.xyz",
+    	 "link": "mailto:info@3cs.xyz",
+    	 "icon": "icon-envelope"
+    	},
+    	{
+    	 "text": "@3CSTech",
+    	 "link": "https://twitter.com/3CSTech",
+    	 "icon": "icon-twitter"
+    	},
+    	{
+    	 "text": "GitHub",
+    	 "link": "https://github.com/3CSTech",
+    	 "icon": "icon-github"
+    	},
+    	{
+    	 "text": "LinkedIn",
+    	 "link": "https://linkedin/3CSTech",
+    	 "icon": "icon-linkedin"
+    	}    	    	    	
+    ]
 }

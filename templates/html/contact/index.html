@@ -6,15 +6,11 @@
         <section class="content">
             <h3>Feel free to contact us whichever way you prefer</h3>
             <section class="contacts">
+                {{#each this.contacts }}
                 <section class="contact">
-                	<i class="icon-envelope"></i><a href="mailto:info@3cs.xyz">info@3cs.xyz</a>
+                    <i class="{{ this.icon }}"></i><a href="{{ this.link }}">{{ this.text }}</a>
                 </section>
-                <section class="contact">
-                	<i class="icon-twitter"></i><a href="https://twitter.com/3CSTech" target="_blank">@3CSTech</a>
-                </section>
-                <section class="contact">
-                	<i class="icon-linkedin"></i><a href="https://linkedin" target="_blank">LinkedIn</a>
-                </section>            
+                {{/each }}
             </section>
         </section>        
         {{> footer }}
