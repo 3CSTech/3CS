@@ -25,7 +25,7 @@ section.content {
 }
 
 section.contacts {
-	width: 40%;
+	width: 20%;
 	text-align: left;
 	margin: auto;	
 }
@@ -116,6 +116,14 @@ section.toolbar a, section.contact a {
 
 section.contact p, section.contact a {
 	display: inline-block;
+}
+
+section.contact i {
+	vertical-align: middle;
+}
+
+section.contact i, section.contact a {
+	margin: 15px 5px 15px 5px;
 }
 
 i {
