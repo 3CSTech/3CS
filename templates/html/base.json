@@ -6,6 +6,8 @@
         "scripts",
         "stylesheets",
         "anchor",
+        "ribbon",
+        "trading_soon",
         "list_menu",
         "logo",
         "menu",
@@ -24,6 +26,7 @@
         "/js/lib/backbone-min.js",
         "/js/default.js"
     ],
+    "ribbon": "Trading soon",
     "menu": [
         {"title": "About", "href": "/"},
         {"title": "+ Solutions", "items": [
