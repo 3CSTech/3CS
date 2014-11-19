@@ -33,7 +33,7 @@
 		background-color: white;
 		border: 0;
 		position: static; 
-		margin: 5px 0 5px 15px;
+		margin: 5px 0 5px 0;
 		width: 100%;
 	}
 	section a.logo {
@@ -61,11 +61,14 @@
 	body nav.main-menu section ul li a {
 	    float: none;
 	}	
+	body nav.main-menu ul li a {
+	    padding: 10px 10px 10px 10px;
+	}
 	body nav.main-menu > section > ul > li {
 		margin: 10px 0;
 	}
-	body nav.main-menu ul la {
-	    padding: 5px 5px 5px 5px;
+	body nav.main-menu section > ul > li > ul > li a {
+	    padding: 10px 15px 10px 33px;
 	}	
 	body nav.main-menu li ul a:hover, 
 	body nav.main-menu ul li li:hover > a  {
