@@ -95,11 +95,11 @@ a.menu-button {
 
 section.menu-open a.menu-button::after,
 section.menu-closed a.menu-button::after {
+	font-family: "Helvetica Narrow","Arial Narrow",Tahoma,Arial,Helvetica,sans-serif;
 	position: relative;
-	top: -10px;
+	top: -7px;
 	font-size: 0.8em;
 	color: #0088cc;
-	font-weight: bold;
 }
 
 section.menu-open a.menu-button::after {
@@ -131,9 +131,9 @@ i {
 	font-size: 2.0em;
 }
 
-a i:hover {
+/*a i:hover {
 	color: red;
-}
+}*/
 
 .logo span {
 	margin: 0;
