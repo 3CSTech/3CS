@@ -37,6 +37,7 @@
         ]},
         {"title": "+ Products", "items": [
             {"title": "Life Stream", "href": "https://github.com/BoyCook/LifeStreamTW", "target": "_blank"},
+            {"title": "Count Down as a Service", "href": "http://cdaas.co.uk", "target": "_blank"},
             {"title": "RPSLS", "href": "http://rockpaperscissorslizardspock.co.uk", "target": "_blank"}
             
         ]},
@@ -46,6 +47,7 @@
         {"title": "Contact", "href": "/contact"},
         {"title": "Values", "href": "/values"},
         {"title": "Partners", "href": "/partners"},
-        {"title": "Software Engineering", "href": "/engineering"}
+        {"title": "Software Engineering", "href": "/engineering"},
+        {"title": "Metrics", "href": "/metrics"}
     ]    
 }
