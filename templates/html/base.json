@@ -28,7 +28,7 @@
     ],
     "ribbon": "Trading soon",
     "menu": [
-        {"title": "About", "href": "/"},
+        {"title": "Home", "href": "/"},
         {"title": "+ Solutions", "items": [
             {"title": "DevOps", "href": "#"},
             {"title": "Continuous Integration", "href": "#"},
