@@ -15,9 +15,9 @@
 
 /* for 568px (iPhone) or less */
 @media screen and (max-width: 568px) {
-/*	body {
-		font-size: 50%;
-	}*/
+	body .content h1 {
+		font-size: 1.5em;
+	}	
 	nav section.menu-container {
 		width: 100%;
 	}

@@ -38,7 +38,7 @@ section.contacts {
 }
 
 .content h1 {
-	font-size: 2.7em;
+	font-size: 2.0em;
 	line-height: 1.05em;	
 	font-weight: 300;
 	margin: 40px 10px 10px 10px;
@@ -116,13 +116,13 @@ section.menu-closed a.menu-button::after {
 	color: #0088cc;
 }
 
-section.menu-open a.menu-button::after {
+/*section.menu-open a.menu-button::after {
 	content: "<";
 }
 
 section.menu-closed a.menu-button::after {
 	content: ">";
-}
+}*/
 
 section.toolbar a, section.contact a {
 	text-decoration: none;
