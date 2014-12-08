@@ -2,5 +2,9 @@
     "extends": ["base.json"],
     "targetPath" : "index.html",
     "partials%add": [],
-    "home": true
+    "home": true,
+    "partners": [{
+    	"name": "Nebularis",
+    	"url": "http://nebularis.co.uk"
+	}]
 }
