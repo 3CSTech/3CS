@@ -5,7 +5,14 @@
     {{> trading_soon }}
     <section class="main">
         <section class="content">
-            <h1>Our partners...</h1>
+            <h1>3CS has several strategic partners that it has developed relationships with</h1>
+            <section class="contacts">
+                {{#each this.partners }}
+                <section class="contact">
+                    <a href="{{ this.url }}" target="_blank">{{ this.name }}</a>
+                </section>
+                {{/each }}
+            </section>            
         </section>        
         {{> footer }}
     </section>
