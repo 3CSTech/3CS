@@ -27,10 +27,9 @@ Data common to all pages belongs in `base.json`.
 Pages are made up of [Handlebars](http://handlebarsjs.com/) partials.
 These live in the `templates/html/partials` directory.
 
-### CSS
+### Copy 
 
-There are some overrides against some of the selectors contained within `core.css`.  These can be found at the bottom of
-`templates/assets/css/common.css`.
+You can copy to your GitHub IO pages directory using the command `make copy`
 
 ### Local
 
