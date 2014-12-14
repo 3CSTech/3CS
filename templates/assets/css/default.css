@@ -76,14 +76,18 @@ footer {
 	margin: 0;	
 }
 
-.consulting ul {
+.list ul {
 	list-style: none;
 	padding: 0;
 	margin: 0;	
 }
 
-.consulting ul li {
-	padding: 20px 10px 10px 20px;
+.block {
+	padding: 0 20px 0 20px;
+}
+
+ul.icon-list li {
+	padding: 15px 0 15px 0;
 }
 
 /*footer ul li:not(:first-child):not(:last-child) {
@@ -160,12 +164,12 @@ section.contact p, section.contact a {
 	display: inline-block;
 }
 
-section.consulting i,
+.icon-list i,
 section.contact i {
 	vertical-align: middle;
 }
 
-section.consulting i {
+.icon-list i {
 	margin: 15px 5px 15px 0;
 	padding: 0;
 }
