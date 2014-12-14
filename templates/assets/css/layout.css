@@ -74,6 +74,7 @@
 	body nav.main-menu ul li li:hover > a  {
 	    background-color: white;
 	}
+	body section.content-head,
 	body section.content {
 		padding: 0;
 	}

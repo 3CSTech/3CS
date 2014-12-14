@@ -36,10 +36,13 @@ section.content {
 	text-align: center;
 }
 
-section.contacts {
-	width: 20%;
+section.list {
 	text-align: left;
 	margin: auto;	
+}
+
+section.contacts {
+	width: 20%;	
 }
 
 .content-head h1, .content-head p,
@@ -71,6 +74,16 @@ footer {
 	width: 100%;
 	padding: 0;
 	margin: 0;	
+}
+
+.consulting ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;	
+}
+
+.consulting ul li {
+	padding: 20px 10px 10px 20px;
 }
 
 footer ul {
@@ -143,11 +156,14 @@ section.contact p, section.contact a {
 	display: inline-block;
 }
 
+section.consulting i,
 section.contact i {
 	vertical-align: middle;
 }
 
-section.contact i, section.contact a {
+section.consulting i,
+section.contact i, 
+section.contact a {
 	margin: 15px 5px 15px 5px;
 }
 

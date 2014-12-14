@@ -8,22 +8,22 @@
     	{
     	 "text": "info@3cs.xyz",
     	 "link": "mailto:info@3cs.xyz",
-    	 "icon": "icon-envelope"
+    	 "icon": "el-icon-envelope"
     	},
     	{
     	 "text": "@3CSTech",
     	 "link": "https://twitter.com/3CSTech",
-    	 "icon": "icon-twitter"
+    	 "icon": "el-icon-twitter"
     	},
     	{
     	 "text": "GitHub",
     	 "link": "https://github.com/3CSTech",
-    	 "icon": "icon-github"
+    	 "icon": "el-icon-github"
     	},
     	{
     	 "text": "LinkedIn",
     	 "link": "https://linkedin/3CSTech",
-    	 "icon": "icon-linkedin"
+    	 "icon": "el-icon-linkedin"
     	}    	    	    	
     ]
 }
