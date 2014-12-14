@@ -15,10 +15,19 @@ html, body {
 	margin: 0;
 }
 
-section.content {
-	background-color: #e8eef8;
+section.content-head {
+	background-color: #e8eef8;	
 	background-size: cover;
-	background-position: center;
+	background-position: center;	
+	width: 100%;
+	min-height: 100px;
+	padding: 40px 0 0 0;
+	margin: 0;
+	overflow: hidden;
+	text-align: center;	
+}
+
+section.content {
 	width: 100%;
 	min-height: 300px;	
 	padding: 40px 0 0 0;
@@ -33,11 +42,12 @@ section.contacts {
 	margin: auto;	
 }
 
+.content-head h1, .content-head p,
 .content h1, .content p {
 	text-align: center;	
 }
 
-.content h1 {
+.content-head h1, .content h1 {
 	font-size: 2.0em;
 	margin: 40px 10px 10px 10px;
 }
@@ -48,6 +58,7 @@ h1, h3, h5 {
 	font-weight: 300;	
 }
 
+.content-head p,
 .content p {
 	padding: 5px 15px 5px 15px;
 }
