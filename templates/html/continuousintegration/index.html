@@ -5,10 +5,11 @@
     {{> trading_soon }}
     <section class="main">
         <section class="content-head">
-            <h1>Continuous integration...</h1>
+            <h1>Continuous integration</h1>
         </section>                 	
         <section class="content">
-			<p>Continuous integration...</p>
+			<p>Continuous integration (CI) is a practice used in software engineering that involves continuously testing the interations between systems. It was originally meant to prevent integration issues ("integration hell"), but has evolved to generally mean continuously running all tests as part of the test-driven-development practice.</p>
+            <p>The idea is that as developers build a system, they will build a fully automated test suite that will test at different levels (unit, performance, integration etc). Depending on the complexity, test builds can be run either each time a commit it made to SCM or nightly. This means that most of the testing is done as the code is developed, and any potential bugs or issues can be spotted very early. Builds are typically run by a CI server.</p>
         </section>        
         {{> footer }}
     </section>

@@ -30,7 +30,7 @@ section.content-head {
 section.content {
 	width: 100%;
 	min-height: 300px;	
-	padding: 40px 0 0 0;
+	padding: 0;
 	margin: 0;
 	overflow: hidden;
 	text-align: center;
@@ -183,6 +183,22 @@ i {
 /*a i:hover {
 	color: red;
 }*/
+
+a.logo {
+    text-decoration: none;
+    color: #0072c6; 
+    font-weight: 300;   
+}
+
+.main-menu a.logo {
+	float: left;
+    font-size: 2.2em;
+    margin-top: 10px;
+}
+
+.content-head a.logo {
+    margin-top: 10px;
+}
 
 .logo span {
 	margin: 0;
