@@ -55,7 +55,13 @@ module.exports = function (grunt) {
                     {'gen/partners/*.html': 'templates/html/partners/*.html'},
                     {'gen/values/*.html': 'templates/html/values/*.html'},
                     {'gen/metrics/*.html': 'templates/html/metrics/*.html'},
-                    {'gen/engineering/*.html': 'templates/html/engineering/*.html'}
+                    {'gen/engineering/*.html': 'templates/html/engineering/*.html'},
+                    {'gen/automateddeployment/*.html': 'templates/html/automateddeployment/*.html'},
+                    {'gen/continuousintegration/*.html': 'templates/html/continuousintegration/*.html'},
+                    {'gen/devops/*.html': 'templates/html/devops/*.html'},
+                    {'gen/products/*.html': 'templates/html/products/*.html'},
+                    {'gen/solutions/*.html': 'templates/html/solutions/*.html'},
+                    {'gen/consulting/*.html': 'templates/html/consulting/*.html'}
                 ]
             }
         },

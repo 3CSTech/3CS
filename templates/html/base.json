@@ -29,19 +29,18 @@
     "ribbon": "Trading soon",
     "menu": [
         {"title": "Home", "href": "/"},
-        {"title": "+ Solutions", "items": [
-            {"title": "DevOps", "href": "#"},
-            {"title": "Continuous Integration", "href": "#"},
-            {"title": "Automated Deployment", "href": "#"},
-            {"title": "Build Automation", "href": "#"}
+        {"title": "+ Solutions", "href": "/solutions", "items": [
+            {"title": "DevOps", "href": "/DevOps"},
+            {"title": "Continuous Integration", "href": "/ContinuousIntegration"},
+            {"title": "Automated Deployment", "href": "/AutomatedDeployment"}
         ]},
-        {"title": "+ Products", "items": [
+        {"title": "+ Products", "href": "/products", "items": [
             {"title": "Life Stream", "href": "https://github.com/BoyCook/LifeStreamTW", "target": "_blank"},
             {"title": "Count Down as a Service", "href": "http://cdaas.co.uk", "target": "_blank"},
             {"title": "RPSLS", "href": "http://rockpaperscissorslizardspock.co.uk", "target": "_blank"}
             
         ]},
-        {"title": "Consulting", "href": "#"}
+        {"title": "Consulting", "href": "/consulting"}
     ],
     "footer": [
         {"title": "Contact", "href": "/contact"},

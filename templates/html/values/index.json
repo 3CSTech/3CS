@@ -2,5 +2,6 @@
     "extends": ["base.json"],
     "targetPath" : "index.html",
     "partials%add": [],
+    "title": "3CS - Values",
     "home": true
 }

@@ -3,6 +3,7 @@
     "targetPath" : "index.html",
     "partials%add": [],
     "home": true,
+    "title": "3CS - Partners",
     "partners": [{
     	"name": "Nebularis",
     	"url": "http://nebularis.co.uk"

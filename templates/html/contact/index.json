@@ -3,6 +3,7 @@
     "targetPath" : "index.html",
     "partials%add": [],
     "home": true,
+    "title": "3CS - Contact",
     "contacts": [
     	{
     	 "text": "info@3cs.xyz",
