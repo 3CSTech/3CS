@@ -212,6 +212,10 @@ a.logo {
 	overflow: hidden;
 }
 
+.content-head .logo span:nth-of-type(2) {
+	height: 0.55em;
+}
+
 .logo span:nth-of-type(3) {
 	color: green;
 }
