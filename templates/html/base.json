@@ -30,9 +30,9 @@
     "menu": [
         {"title": "Home", "href": "/"},
         {"title": "+ Solutions", "href": "/solutions", "items": [
-            {"title": "DevOps", "href": "/DevOps"},
-            {"title": "Continuous Integration", "href": "/ContinuousIntegration"},
-            {"title": "Automated Deployment", "href": "/AutomatedDeployment"}
+            {"title": "DevOps", "href": "/devops"},
+            {"title": "Continuous Integration", "href": "/continuousintegration"},
+            {"title": "Automated Deployment", "href": "/automateddeployment"}
         ]},
         {"title": "+ Products", "href": "/products", "items": [
             {"title": "Life Stream", "href": "https://github.com/BoyCook/LifeStreamTW", "target": "_blank"},
