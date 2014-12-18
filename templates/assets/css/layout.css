@@ -48,7 +48,7 @@
 		font-size: 1.5em;
 	}
 	body a.menu-button i {
-		font-size: 1.5em;
+		font-size: 1.0em;
 	}	
 	body nav.main-menu {
 		position: static;
@@ -78,6 +78,13 @@
 	body section.content {
 		padding: 0;
 	}
+	body section.content-head {
+		min-height: 90px;
+	}
+	body section.content-head h1, 
+	body section.content h1 {
+		margin: 30px 10px 10px 10px;
+	}	
 	section footer ul {
     	width: 60%;
 	}

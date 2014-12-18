@@ -136,7 +136,7 @@ footer a:hover {
 a.menu-button {
 	display: none;
 	float: left;
-	margin: 8px 0 0 10px;	
+	margin: 12px 0 0 10px;	
 }
 
 section.menu-open a.menu-button::after,
@@ -197,7 +197,7 @@ a.logo {
 .main-menu a.logo {
 	float: left;
     font-size: 2.2em;
-    margin-top: 10px;
+    margin: 10px 10px 10px 10px;
 }
 
 .content-head a.logo {
