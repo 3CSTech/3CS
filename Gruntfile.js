@@ -52,17 +52,18 @@ module.exports = function (grunt) {
                 files: [
                     {'gen/*.html': 'templates/html/*.html'},
                     {'gen/about/*.html': 'templates/html/about/*.html'},
-                    {'gen/contact/*.html': 'templates/html/contact/*.html'},
-                    {'gen/partners/*.html': 'templates/html/partners/*.html'},
-                    {'gen/values/*.html': 'templates/html/values/*.html'},
-                    {'gen/metrics/*.html': 'templates/html/metrics/*.html'},
-                    {'gen/engineering/*.html': 'templates/html/engineering/*.html'},
                     {'gen/automateddeployment/*.html': 'templates/html/automateddeployment/*.html'},
+                    {'gen/consulting/*.html': 'templates/html/consulting/*.html'},
+                    {'gen/contact/*.html': 'templates/html/contact/*.html'},
                     {'gen/continuousintegration/*.html': 'templates/html/continuousintegration/*.html'},
                     {'gen/devops/*.html': 'templates/html/devops/*.html'},
+                    {'gen/engineering/*.html': 'templates/html/engineering/*.html'},
+                    {'gen/metrics/*.html': 'templates/html/metrics/*.html'},
+                    {'gen/partners/*.html': 'templates/html/partners/*.html'},
                     {'gen/products/*.html': 'templates/html/products/*.html'},
                     {'gen/solutions/*.html': 'templates/html/solutions/*.html'},
-                    {'gen/consulting/*.html': 'templates/html/consulting/*.html'}
+                    {'gen/tools/*.html': 'templates/html/tools/*.html'},
+                    {'gen/values/*.html': 'templates/html/values/*.html'}
                 ]
             }
         },

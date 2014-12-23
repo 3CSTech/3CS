@@ -30,6 +30,7 @@
     "menu": [
         {"title": "Home", "href": "/"},
         {"title": "+ Solutions", "href": "/solutions", "items": [
+            {"title": "Engineering Tools", "href": "/tools"},
             {"title": "DevOps", "href": "/devops"},
             {"title": "Continuous Integration", "href": "/continuousintegration"},
             {"title": "Automated Deployment", "href": "/automateddeployment"}

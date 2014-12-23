@@ -1,0 +1,7 @@
+{
+    "extends": ["base.json"],
+    "targetPath" : "index.html",
+    "partials%add": [],
+    "title": "3CS - DevOps",
+    "home": true
+}
