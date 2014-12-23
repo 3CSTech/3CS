@@ -42,7 +42,7 @@ section.list {
 }
 
 section.contacts {
-	width: 20%;	
+	width: 50%;	
 }
 
 .content-head h1, .content-head p,
@@ -222,6 +222,13 @@ a.logo {
 
 .logo span:nth-of-type(3) {
 	color: green;
+}
+
+p.no-gap {
+	padding-top: 3px;
+	padding-bottom: 3px;
+	margin-top: 0;
+	margin-bottom: 0;
 }
 
 /* Ribbon */

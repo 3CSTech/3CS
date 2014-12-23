@@ -51,6 +51,7 @@ module.exports = function (grunt) {
                 },
                 files: [
                     {'gen/*.html': 'templates/html/*.html'},
+                    {'gen/about/*.html': 'templates/html/about/*.html'},
                     {'gen/contact/*.html': 'templates/html/contact/*.html'},
                     {'gen/partners/*.html': 'templates/html/partners/*.html'},
                     {'gen/values/*.html': 'templates/html/values/*.html'},
