@@ -12,7 +12,12 @@
             <section class="contacts list">
                 {{#each this.contacts }}
                 <section class="contact">
-                    <i class="{{ this.icon }}"></i><a href="{{ this.link }}" target="_blank">{{ this.text }}</a>
+                    <i class="{{ this.icon }}"></i>
+                    {{#if this.link}}
+                        <a href="{{ this.link }}" target="_blank">{{ this.text }}</a>
+                    {{else}}
+                        <span>{{ this.text }}</span>
+                    {{/if}}
                 </section>
                 {{/each }}
             </section>

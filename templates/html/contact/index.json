@@ -10,6 +10,10 @@
     	 "link": "mailto:info@3cs.xyz",
     	 "icon": "el-icon-envelope"
     	},
+        {
+         "text": "19b Inglewood Rd, Bexleyheath, DA7 6JR",
+         "icon": "el-icon-envelope"
+        },        
     	{
     	 "text": "@3CSTech",
     	 "link": "https://twitter.com/3CSTech",
