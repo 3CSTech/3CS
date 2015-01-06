@@ -1,7 +1,8 @@
 {
+	"description": "software engineering tools",
     "extends": ["base.json"],
     "targetPath" : "index.html",
     "partials%add": [],
-    "title": "3CS - DevOps",
+    "title": "3CS - Tools",
     "home": true
 }

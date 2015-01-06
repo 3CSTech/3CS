@@ -1,4 +1,5 @@
 {
+	"description": "technical solutions",
     "extends": ["base.json"],
     "targetPath" : "index.html",
     "partials%add": [],

@@ -1,4 +1,5 @@
 {
+	"description": "automated deployment",
     "extends": ["base.json"],
     "targetPath" : "index.html",
     "partials%add": [],

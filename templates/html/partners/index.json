@@ -1,4 +1,5 @@
 {
+	"description": "business partners",
     "extends": ["base.json"],
     "targetPath" : "index.html",
     "partials%add": [],
