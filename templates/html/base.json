@@ -7,7 +7,7 @@
         "stylesheets",
         "anchor",
         "ribbon",
-        "trading_soon",
+        "3cs_ribbon",
         "list_menu",
         "logo",
         "menu",
@@ -26,7 +26,10 @@
         "/js/lib/backbone-min.js",
         "/js/default.js"
     ],
-    "ribbon": "Trading soon",
+    "ribbon": {
+        "link": "/about",
+        "text": "Now trading"
+    },
     "menu": [
         {"title": "Home", "href": "/"},
         {"title": "+ Solutions", "href": "/solutions", "items": [
